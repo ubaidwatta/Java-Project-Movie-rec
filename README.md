@@ -2,24 +2,42 @@
 movie recommendation system
 Project Structure:
 java project/
+
 ├── data/
+
 │   ├── movies.csv       ← movie details (id, title, genres)
+
 │   └── ratings.csv      ← user ratings (userId, movieId, rating, timestamp)
+
 │
+
 ├── src/
+
 │   ├── model/           ← contains data models
+
 │   │   ├── Movie.java
+
 │   │   └── Rating.java
+
 │   │
+
 │   ├── util/            ← helper utilities
+
 │   │   └── DataLoader.java
+
 │   │
+
 │   ├── recommender/     ← recommendation logic
+
 │   │   └── Recommender.java
 │   │
+
 │   └── Main.java        ← entry point
+
 │
+
 └── out/                 ← compiled .class files
+
 
 File-by-File Summary
 🟩 Movie.java
